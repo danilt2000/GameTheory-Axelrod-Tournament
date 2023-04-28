@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game_Theory___Axelrod_Tournament.Strategies
 {
-	internal class AlwaysCooperate : AxelrodStrategies
+	internal class AlwaysCooperate 
 	{
 		public IList<int> ResultPlaysFreedomYears = new List<int>();
 
