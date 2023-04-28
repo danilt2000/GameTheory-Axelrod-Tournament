@@ -61,10 +61,10 @@ First result 533 Second result 533
 The first game 'TitForTat' versus 'PeriodicallyDDC'
 First result 399 Second result 404
 The first game 'TitForTat' versus 'RandomStrategy'
-First result 457 Second result 457
+First result 441 Second result 446
 The first game 'TitForTat' versus 'DanilStrategy'
-First result 399 Second result 404
-Average number of TitForTat is 399
+First result 401 Second result 401
+Average number of TitForTat is 398
 The first game 'PeriodicallyDDC' versus 'PeriodicallyDDC'
 First result 397 Second result 402
 The first game 'PeriodicallyDDC' versus 'Always Cooperate'
@@ -76,10 +76,10 @@ First result 602 Second result 267
 The first game 'PeriodicallyDDC' versus 'Always Defect'
 First result 133 Second result 468
 The first game 'PeriodicallyDDC' versus 'RandomStrategy'
-First result 489 Second result 324
+First result 515 Second result 330
 The first game 'PeriodicallyDDC' versus 'DanilStrategy'
 First result 499 Second result 334
-Average number of PeriodicallyDDC is 442
+Average number of PeriodicallyDDC is 444
 The first game 'PeriodicallyCCD' versus 'PeriodicallyCCD'
 First result 533 Second result 533
 The first game 'PeriodicallyCCD' versus 'Always Defect'
@@ -91,25 +91,25 @@ First result 734 Second result 399
 The first game 'PeriodicallyCCD' versus 'PeriodicallyDDC'
 First result 267 Second result 602
 The first game 'PeriodicallyCCD' versus 'RandomStrategy'
-First result 414 Second result 549
+First result 388 Second result 568
 The first game 'PeriodicallyCCD' versus 'DanilStrategy'
 First result 400 Second result 565
-Average number of PeriodicallyCCD is 422
+Average number of PeriodicallyCCD is 420
 The first game 'RandomStrategy' versus 'RandomStrategy'
-First result 467 Second result 422
+First result 442 Second result 467
 The first game 'RandomStrategy' versus 'Always Cooperate'
-First result 814 Second result 279
+First result 794 Second result 309
 The first game 'RandomStrategy' versus 'TitForTat'
-First result 468 Second result 468
+First result 441 Second result 441
 The first game 'RandomStrategy' versus 'PeriodicallyCCD'
-First result 574 Second result 399
+First result 580 Second result 385
 The first game 'RandomStrategy' versus 'PeriodicallyDDC'
-First result 330 Second result 515
+First result 329 Second result 499
 The first game 'RandomStrategy' versus 'Always Defect'
-First result 105 Second result 580
+First result 94 Second result 624
 The first game 'RandomStrategy' versus 'DanilStrategy'
-First result 470 Second result 435
-Average number of RandomStrategy is 447
+First result 470 Second result 425
+Average number of RandomStrategy is 453
 The first game 'DanilStrategy' versus 'DanilStrategy'
 First result 0 Second result 1000
 The first game 'DanilStrategy' versus 'Always Cooperate'
@@ -121,8 +121,8 @@ First result 566 Second result 401
 The first game 'DanilStrategy' versus 'PeriodicallyDDC'
 First result 334 Second result 499
 The first game 'DanilStrategy' versus 'RandomStrategy'
-First result 429 Second result 459
+First result 458 Second result 448
 The first game 'DanilStrategy' versus 'Always Cooperate'
 First result 800 Second result 300
-Average number of PeriodicallyCCD is 433
+Average number of DanilStrategy is 434
 </pre>
