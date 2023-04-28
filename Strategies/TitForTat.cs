@@ -8,9 +8,9 @@ namespace Game_Theory___Axelrod_Tournament.Strategies
 {
 	internal class TitForTat
 	{
-		public IList<int> ResultPlaysFreedomYears { get; set; }
+		public IList<int> ResultPlaysFreedomYears = new List<int>();
 
-		public IList<Сhoice>? ChoicesHistory { get; set; }
+		public IList<Сhoice>? ChoicesHistory = new List<Сhoice>();
 
 		internal Сhoice GetResult(Сhoice enemyChoise)
 		{

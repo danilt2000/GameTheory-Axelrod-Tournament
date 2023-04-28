@@ -8,21 +8,24 @@ namespace Game_Theory___Axelrod_Tournament
 {
 	internal class Player
 	{
-		public delegate Сhoice Strategy();
+		public delegate Сhoice Strategy(Сhoice сhoice);
 
-		private Strategy strategy;
+		public Strategy strategy;
 
 		public void SetFunction(Strategy newFunction)
 		{
 			strategy = newFunction;
 		}
 
-		public Сhoice ExecuteStrategy()
+		public Сhoice ExecuteStrategy(Сhoice сhoice)
 		{
-			return strategy != null ? strategy.Invoke() : default(Сhoice);
+			return strategy != null ? strategy.Invoke(сhoice) : default(Сhoice);
 		}
 
-
+		public string GetCurrentFunction()
+		{
+			return strategy.ToString();
+		}
 		internal int FreedomYears { get; set; }
 	}
 }

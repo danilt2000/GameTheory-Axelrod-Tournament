@@ -9,6 +9,7 @@ namespace Game_Theory___Axelrod_Tournament
 	internal enum Сhoice
 	{
 		Betrayal,
-		Collaboration
+		Collaboration,
+		Null
 	}
 }

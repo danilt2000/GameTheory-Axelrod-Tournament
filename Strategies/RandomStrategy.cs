@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace Game_Theory___Axelrod_Tournament.Strategies
 {
-	internal class AlwaysCooperate : AxelrodStrategies
+	internal class RandomStrategy
 	{
 		public IList<int> ResultPlaysFreedomYears = new List<int>();
 
 		internal Сhoice GetResult(Сhoice сhoice)
 		{
-			return Сhoice.Collaboration;
+			return GetRandomChoice();
+		}
+
+		private Сhoice GetRandomChoice()
+		{
+			Random random = new Random();
+			int randomValue = random.Next(2);
+			return (Сhoice)randomValue;
 		}
 	}
 }

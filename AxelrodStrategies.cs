@@ -4,7 +4,11 @@ namespace Game_Theory___Axelrod_Tournament
 {
 	internal class AxelrodStrategies
 	{
-		internal AlwaysCooperate AlwaysCooperate = new AlwaysCooperate();
+		//public override IList<int> ResultPlaysFreedomYears ;
+
+  //      public override IList<int> MyProperty { get; set; }
+
+        internal AlwaysCooperate AlwaysCooperate = new AlwaysCooperate();
 
 		internal AlwaysDefect AlwaysDefect = new AlwaysDefect();
 
@@ -13,5 +17,12 @@ namespace Game_Theory___Axelrod_Tournament
 		internal PeriodicallyCCD PeriodicallyCCD = new PeriodicallyCCD();
 
 		internal PeriodicallyDDC PeriodicallyDDC = new PeriodicallyDDC();
+
+		internal RandomStrategy RandomStrategy = new RandomStrategy();
+
+		internal DanilStrategy DanilStrategy = new DanilStrategy();
+
+
+
 	}
 }
